@@ -47,9 +47,97 @@ output:
 
 # Motivations
 
-## Lets get started
+## Motherboard and CPU
 
-```{r, out.width = "550px"}
+```{r,  echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0189.JPG")
 knitr::include_graphics(path)
 ```
+
+## Cooling
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0190.JPG")
+knitr::include_graphics(path)
+```
+
+
+## RAM
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0191.JPG")
+knitr::include_graphics(path)
+```
+
+## RAM
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0192.JPG")
+knitr::include_graphics(path)
+```
+
+## RAM
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0193.JPG")
+knitr::include_graphics(path)
+```
+
+## RAM
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0194.JPG")
+knitr::include_graphics(path)
+```
+
+## RAM and fans
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0196.JPG")
+knitr::include_graphics(path)
+```
+
+## Graphics Processing Unit (GPU)
+
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0197.JPG")
+knitr::include_graphics(path)
+```
+
+## M.2 Memory 250 GB
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0198.JPG")
+knitr::include_graphics(path)
+```
+
+
+## Hard Drive
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_238.JPG")
+knitr::include_graphics(path)
+```
+
+## It's Alive!
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_213.JPG")
+knitr::include_graphics(path)
+```
+
+
+## Complete List of parts $1500
+
+PC Part picker:
+
+https://pcpartpicker.com/list/Xqs9zY
+
+```{r, echo = FALSE, out.width = "550px"}
+path <- paste0(getwd(), "/images/pcPartPicker.PNG")
+knitr::include_graphics(path)
+```
+
+
+
