@@ -1,6 +1,8 @@
 library(microbenchmark)
 
-args <- commandArgs(trailingOnly = TRUE)
+#args <- commandArgs(trailingOnly = TRUE)
+args <- 1E4
+
 ROW_SIZE <- as.integer(args[1])
 
 #################
@@ -62,6 +64,7 @@ if(Sys.info()[['sysname']] == "Darwin") {
 
 ### WINDOWS MACHINES
 if(Sys.info()[['sysname']] == "Windows") {
+  
   tryCatch({
     free_data <- setNames(cbind(read.table(text=system("wmic ComputerSystem get TotalPhysicalMemory", intern = TRUE),
                                            header=TRUE),
@@ -87,6 +90,7 @@ if(Sys.info()[['sysname']] == "Windows") {
   
   tryCatch({ free_data$cpu_speed <- trimws(system("wmic cpu get CurrentClockSpeed", intern=TRUE))[2] },
            error = function(e) print(e) )
+  
 }
 
 sys_data <- cbind(sys_data, free_data)
@@ -95,7 +99,7 @@ sys_data <- cbind(sys_data, free_data)
 machine_run <- function() {
   
   #################
-  ### DATA BUILD
+  ### DATA BUILD ##
   #################
   
   set.seed(2019)
@@ -259,8 +263,7 @@ mb_stats <- do.call(data.frame, aggregate(time~., microbenchmark(machine_run(), 
 ))
 
 
-sys_data <- cbind(sys_data, mb_stats, date = Sys.time(), row_size = ROW_SIZE,
-                  row.names=NULL)
+sys_data <- cbind(sys_data, mb_stats, date = Sys.time(), row_size = ROW_SIZE, row.names=NULL)
 
 # OUTPUT TO SCREEN
 print(sys_data)

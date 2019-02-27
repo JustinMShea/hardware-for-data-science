@@ -1,0 +1,4 @@
+"user","os_type","os_release","os_version","machine","r_version","r_platform","r_build_date","mem_total","mem_used","mem_free","swap_total","swap_used","swap_free","cpu_cores","cpu_speed","max_used_mb","gc_trigger_mb","use_mb"
+"Justin","Windows","10 x64","build 17763","x86-64","3.5.2","x86_64-w64-mingw32","2018-12-20",17079.492608,8036.540608,9042.952,19169.56,8689.952,10479.608,"4","3001",73.7,125.5,37.8
+"user","os_type","os_release","os_version","machine","r_version","r_platform","r_build_date","mem_total","mem_used","mem_free","swap_total","swap_used","swap_free","cpu_cores","cpu_speed","max_used_mb","gc_trigger_mb","use_mb"
+"Justin","Windows","10 x64","build 17763","x86-64","3.5.2","x86_64-w64-mingw32","2018-12-20",17079.492608,8042.448608,9037.044,19169.56,8705.124,10464.436,"4","3001",74,125.5,39.3
