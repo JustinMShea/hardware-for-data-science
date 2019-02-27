@@ -1,0 +1,55 @@
+---
+title: Building a Threadripper for cheap
+date: 2019-02-27
+author: Justin M. Shea
+institute:  
+titlegraphic: ~/R/University-of-Chicago-MScA-Markdown-workshop/images/UofC-logo.png
+fontsize: 10pt
+output:
+ ioslides_presentation:
+    smaller: true
+    #logo: ~/R/University-of-Chicago-MScA-Markdown-workshop/images/UofC-logo.png
+    css: ~/R/University-of-Chicago-MScA-Markdown-workshop/slides/ioslides-css.css    
+ beamer_presentation:
+    template: ~/R/University-of-Chicago-MScA-Markdown-workshop/slides/latex-beamer.tex
+    keep_tex: true
+# toc: true
+    slide_level: 2
+---
+
+
+# Introduction
+
+
+
+## About me: Justin M. Shea
+
+- Lead organizer of [The Chicago R User Group](https://www.meetup.com/Chicago-R-User-Group/)
+
+- Committee member [R/Finance 2019](https://www.rinfinance.com/)
+
+- Mentor for [The Johns Hopkins Data Science specialization](https://www.coursera.org/specializations/jhu-data-science) online
+
+- Author of the **`wooldridge`** R package, the official R package for "Introductory Econometrics" by Jeffrey M. Wooldridge.
+
+- Author of the **`neverhpfilter`** R package, implementing James Hamilton's alternative to the Hodrick-Prescott filter.
+
+- Visiting Professor fo Finance Roosevelt University
+
+- TA/Co-instructor U Chicago Master of Science in analytics
+
+- A long Career in Futures and Options trading
+
+- Recent consulting for high frequency, mutual fund, and fund of funds firms.
+
+- [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications.
+
+
+# Motivations
+
+## Lets get started
+
+```{r, out.width = "550px"}
+path <- paste0(getwd(), "/images/IMG_0189.JPG")
+knitr::include_graphics(path)
+```
