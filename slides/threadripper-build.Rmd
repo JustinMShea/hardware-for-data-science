@@ -1,5 +1,5 @@
 ---
-title: Building a Threadripper for cheap
+title: Building a Threadripper on the cheap
 date: 2019-02-27
 author: Justin M. Shea
 institute:  
@@ -24,7 +24,11 @@ output:
 
 ## About me: Justin M. Shea
 
-- Lead organizer of [The Chicago R User Group](https://www.meetup.com/Chicago-R-User-Group/)
+- Visiting Professor of Finance Roosevelt University
+
+- TA/Co-instructor U Chicago Master of Science in analytics
+
+- Organizer of [The Chicago R User Group](https://www.meetup.com/Chicago-R-User-Group/)
 
 - Committee member [R/Finance 2019](https://www.rinfinance.com/)
 
@@ -34,13 +38,7 @@ output:
 
 - Author of the **`neverhpfilter`** R package, implementing James Hamilton's alternative to the Hodrick-Prescott filter.
 
-- Visiting Professor fo Finance Roosevelt University
-
-- TA/Co-instructor U Chicago Master of Science in analytics
-
-- A long Career in Futures and Options trading
-
-- Recent consulting for high frequency, mutual fund, and fund of funds firms.
+- Career in Futures and Options trading
 
 - [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications.
 
