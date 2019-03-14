@@ -1,5 +1,5 @@
 ---
-title: Building a Threadripper for cheap
+title: Building a Threadripper...for cheap!
 date: 2019-02-27
 author: Justin M. Shea
 institute:  
@@ -28,26 +28,30 @@ output:
 
 - Committee member [R/Finance 2019](https://www.rinfinance.com/)
 
-- Mentor for [The Johns Hopkins Data Science specialization](https://www.coursera.org/specializations/jhu-data-science) online
-
 - Author of the **`wooldridge`** R package, the official R package for "Introductory Econometrics" by Jeffrey M. Wooldridge.
 
 - Author of the **`neverhpfilter`** R package, implementing James Hamilton's alternative to the Hodrick-Prescott filter.
 
-- Visiting Professor fo Finance Roosevelt University
+- Visiting Professor of Finance Roosevelt University
 
-- TA/Co-instructor U Chicago Master of Science in analytics
+- TA/Co-instructor UChicago Master of Science in analytics
 
 - A long Career in Futures and Options trading
 
-- Recent consulting for high frequency, mutual fund, and fund of funds firms.
+- Recent consulting for high frequency, mutual fund startup, and fund-of-funds firms.
 
-- [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications.
+- [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications?
 
 
 # Motivations
 
 ## Motherboard and CPU
+
+ 	
+AMD - Threadripper 1950X **3.4 GHz 16-Core** Processor **SALE $450**
+
+ 	
+ASRock - X399 Taichi ATX TR4 Motherboard: **SALE $150**
 
 ```{r,  echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0189.JPG")
@@ -55,6 +59,9 @@ knitr::include_graphics(path)
 ```
 
 ## Cooling
+
+ 	
+Enermax - Liqtech TR4 II 280 80.71 CFM Liquid CPU Cooler **$150**
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0190.JPG")
@@ -64,19 +71,19 @@ knitr::include_graphics(path)
 
 ## RAM
 
+Corsair - Dominator Platinum 16 GB (2 x 8 GB) x 2 DDR4-3000 Memory
+
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0191.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM
 
-```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_0192.JPG")
-knitr::include_graphics(path)
-```
+## RAM Installed: 64GB
 
-## RAM
+Also,
+
+G.Skill - Trident Z RGB 32 GB (4 x 8 GB) DDR4-3200 Memory
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0193.JPG")
@@ -90,7 +97,22 @@ path <- paste0(getwd(), "/images/IMG_0194.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM and fans
+## Corsair RAM
+
+```{r, echo = FALSE, out.width = "600px"}
+path <- paste0(getwd(), "/images/IMG_0235.JPG")
+knitr::include_graphics(path)
+```
+
+## G.Skill RAM
+
+```{r, echo = FALSE, out.width = "600px"}
+path <- paste0(getwd(), "/images/IMG_0237.JPG")
+knitr::include_graphics(path)
+```
+
+
+## Fan Cable Management
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0196.JPG")
@@ -99,13 +121,19 @@ knitr::include_graphics(path)
 
 ## Graphics Processing Unit (GPU)
 
+**2GB Nvidia Gigabyte: SALE $75**
+
+GeForce GTX 1050 2 GB Windforce OC Video Card
+
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0197.JPG")
 knitr::include_graphics(path)
 ```
 
-## M.2 Memory 250 GB
+## M.2 Memory is Awesome
+
+970 Evo 250 GB M.2-2280 Solid State Drive
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0198.JPG")
@@ -115,29 +143,47 @@ knitr::include_graphics(path)
 
 ## Hard Drive
 
+ 	
+Seagate - IronWolf 8 TB 3.5" 7200RPM Internal Hard Drive 
+
 ```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_238.JPG")
+path <- paste0(getwd(), "/images/IMG_0238.JPG")
 knitr::include_graphics(path)
 ```
 
-## It's Alive!
+## Complete
 
-```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_213.JPG")
+```{r, echo = FALSE, out.width = "450px"}
+path <- paste0(getwd(), "/images/IMG_0201.PNG")
 knitr::include_graphics(path)
 ```
 
+## Its Alive!!
 
-## Complete List of parts $1500
+```{r, echo = FALSE, out.width = "450px"}
+path <- paste0(getwd(), "/images/IMG_0203.PNG")
+knitr::include_graphics(path)
+```
 
-PC Part picker:
+## Complete List of parts $1500!
 
-https://pcpartpicker.com/list/Xqs9zY
+But I had some parts already.
 
-```{r, echo = FALSE, out.width = "550px"}
+PC Part picker link: https://pcpartpicker.com/list/Xqs9zY
+
+```{r, echo = FALSE, out.width = "750px"}
 path <- paste0(getwd(), "/images/pcPartPicker.PNG")
 knitr::include_graphics(path)
 ```
 
+## ...actually closer to $2500
 
+PC Part picker link: https://pcpartpicker.com/list/Xqs9zY
+
+```{r, echo = FALSE, out.width = "750px"}
+path <- paste0(getwd(), "/images/pxRecent.PNG")
+knitr::include_graphics(path)
+```
+
+# Thank You!
 
