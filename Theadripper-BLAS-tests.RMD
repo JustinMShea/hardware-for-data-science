@@ -1,0 +1,12 @@
+---
+title: "Testing Linear Algebra Libraries for Threadrippers"
+output: html_document
+---
+
+```{bash}
+sudo update-alternatives --config libblas.so.3-x86_64-linux-gnu
+
+just3n 3
+
+```
+
