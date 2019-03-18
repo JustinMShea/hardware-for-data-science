@@ -1,5 +1,5 @@
 ---
-title: Building a Threadripper on the cheap
+title: Building a Threadripper...for cheap!
 date: 2019-02-27
 author: Justin M. Shea
 institute:  
@@ -32,20 +32,33 @@ output:
 
 - Committee member [R/Finance 2019](https://www.rinfinance.com/)
 
-- Mentor for [The Johns Hopkins Data Science specialization](https://www.coursera.org/specializations/jhu-data-science) online
-
 - Author of the **`wooldridge`** R package, the official R package for "Introductory Econometrics" by Jeffrey M. Wooldridge.
 
 - Author of the **`neverhpfilter`** R package, implementing James Hamilton's alternative to the Hodrick-Prescott filter.
 
-- Career in Futures and Options trading
-
-- [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications.
+- [Google summer of code](https://summerofcode.withgoogle.com/) mentor 2019, R and Finance applications?
 
 
 # Motivations
 
+## Data grows, hardware gets cheaper
+
+- Data Scientists: A Designer laptop that costs $3,000+ is a waste of your most valuable resources, **time & money**.
+
+- Data Scientists: You're already building your own Software for Data Analysis (`SoDa`) for several good reason, consider building your hardware for many of these same reasons.
+
+- Management: Experienced, Full-Stack Data Pros often command salaries in the six figures. Don't issue them the 8GB laptop, their productivity is simply too valuable to impose this bottleneck. 
+
+- Some data is private/valuable and you may not be allowed to risk it in the cloud.
+
+
+# The Build
+
 ## Motherboard and CPU
+
+AMD - Threadripper 1950X **3.4 GHz 16-Core** Processor **Black Friday SALE $450**
+
+ASRock - X399 Taichi ATX TR4 Motherboard: **Microcenter bargain table SALE $150**
 
 ```{r,  echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0189.JPG")
@@ -54,88 +67,147 @@ knitr::include_graphics(path)
 
 ## Cooling
 
+ 	
+Enermax - Liqtech TR4 II 280 80.71 CFM Liquid CPU Cooler **Retail $140ish**
+
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0190.JPG")
 knitr::include_graphics(path)
 ```
 
 
-## RAM
+## Corsair RAM
+
+Corsair - Dominator Platinum 32 GB (2 x 2 x 8 GB) DDR4-3000 Memory **Retail $320**
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0191.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM
+## Corsair RAM
 
-```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_0192.JPG")
+These are **Samsung B-Die** sticks, higher quality for Threadrippers.
+
+```{r, echo = FALSE, out.width = "600px"}
+path <- paste0(getwd(), "/images/IMG_0235.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM
+## G.Skill RAM
+
+Added another 32GB kit a friend had laying aroud, even if lower quality **Hynix**
+
+- G.Skill-Trident Z RGB 32 GB (4 x 8 GB) DDR4-3200 Memory **$0**
+
+```{r, echo = FALSE, out.width = "600px"}
+path <- paste0(getwd(), "/images/IMG_0237.JPG")
+knitr::include_graphics(path)
+```
+
+## RAM Installed: 64GB!
+
+One _shouldn't_ mix differing RAM. I did because its **more RAM**!
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0193.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM
+## RAM Installed: 64GB!
+
+If mixing `RAM`, consult the Motherboard manual for optimal slot placement.
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0194.JPG")
 knitr::include_graphics(path)
 ```
 
-## RAM and fans
+
+## RAM Installed: 64GB!
+
+When mixing `RAM`, enter the `bios` on boot and adjust the frequency higher one level at a time, until boot failure resets the frequency to default (2133 MHZ in my case). One step below boot failure is your stock maximum.
+
+Although I'm mixing **`3000`** and **`3200`** kits, the most I was able to reach was **`2800`** MHZ without increasing memory voltage. I'll tune that another day...
+
+```{r, echo = FALSE, out.width = "700px"}
+path <- paste0(getwd(), "/images/IMG_0259.JPG")
+knitr::include_graphics(path)
+```
+
+## Fan Cable Management
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0196.JPG")
 knitr::include_graphics(path)
 ```
 
-## Graphics Processing Unit (GPU)
+## Graphics Processing Unit(s)
 
+I rely on the MSI unit for graphics, but picked up the Gigabyte unit (`pictured`) to experiment with GPU computation. At `2GB DDR5 RAM`, it has `640 CUDA cores`.
+
+- MSI GeForce GT 710 2GB DDR3, 192 CUDA cores **Retail $50ish**
+
+- Gigabyte GeForce GTX 1050, Windforce OC Video Card **MC Bargin Table $75**
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0197.JPG")
 knitr::include_graphics(path)
 ```
 
-## M.2 Memory 250 GB
+## NVMe M.2 Memory is Awesome
+
+Read/write data 6-7 times faster than SATA SSD!
+
+- 970 Evo 250 GB M.2-2280 Solid State Drive **Retail Sale $88**
 
 ```{r, echo = FALSE, out.width = "550px"}
 path <- paste0(getwd(), "/images/IMG_0198.JPG")
 knitr::include_graphics(path)
 ```
 
+## 8TB Hard Drive
 
-## Hard Drive
+Seagate - IronWolf 8TB 3.5" 7200rpm Hard Drive **Retail $233**
 
 ```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_238.JPG")
+path <- paste0(getwd(), "/images/IMG_0238.JPG")
 knitr::include_graphics(path)
 ```
 
-## It's Alive!
+## Its Alive!!
 
-```{r, echo = FALSE, out.width = "550px"}
-path <- paste0(getwd(), "/images/IMG_213.JPG")
+```{r, echo = FALSE, out.width = "450px"}
+path <- paste0(getwd(), "/images/IMG_0203.PNG")
 knitr::include_graphics(path)
 ```
 
+## Complete List of parts $1500!
 
-## Complete List of parts $1500
+Full Disclosure: I owned parts already and am an extreme bargain hunter!
 
-PC Part picker:
+NOTE: The ENERMAX liquid cooler isn't suppose to fit the mid-tower. I made it work.
 
-https://pcpartpicker.com/list/Xqs9zY
+PC Part picker link for this build here: https://pcpartpicker.com/list/Xqs9zY
 
-```{r, echo = FALSE, out.width = "550px"}
+
+```{r, echo = FALSE, out.width = "750px"}
 path <- paste0(getwd(), "/images/pcPartPicker.PNG")
 knitr::include_graphics(path)
 ```
 
+## Closer to $2500 from scratch
 
+This route does requires your valuable time to research and build. I'd argue this initial time investment pays dividends via future upgrades, builds, and productivity.
+
+Still cheaper than the average silver designer laptop, and more powerful!
+
+PC Part picker link: https://pcpartpicker.com/list/Xqs9zY
+
+```{r, echo = FALSE, out.width = "750px"}
+path <- paste0(getwd(), "/images/pxRecent.PNG")
+knitr::include_graphics(path)
+```
+
+# Thank You!
 
